@@ -1,0 +1,85 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:2786709044372985308",
+      "lastPropertyId": "7:7890478890826593703",
+      "name": "Song",
+      "properties": [
+        {
+          "id": "1:7165933194944142993",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "3:2171545792005175951",
+          "name": "lyrics",
+          "type": 9
+        },
+        {
+          "id": "4:9199593240148297430",
+          "name": "link",
+          "type": 9
+        },
+        {
+          "id": "5:2359613934424021361",
+          "name": "title",
+          "type": 9
+        },
+        {
+          "id": "7:7890478890826593703",
+          "name": "bookId",
+          "type": 11,
+          "flags": 520,
+          "indexId": "2:1245940088199313649",
+          "relationTarget": "Book"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "2:5535942960124291568",
+      "lastPropertyId": "2:8378854650946609865",
+      "name": "Book",
+      "properties": [
+        {
+          "id": "1:436357346837716488",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:8378854650946609865",
+          "name": "title",
+          "type": 9
+        }
+      ],
+      "relations": [
+        {
+          "id": "1:492480887672578493",
+          "name": "songs",
+          "targetId": "1:2786709044372985308"
+        }
+      ]
+    }
+  ],
+  "lastEntityId": "2:5535942960124291568",
+  "lastIndexId": "2:1245940088199313649",
+  "lastRelationId": "1:492480887672578493",
+  "lastSequenceId": "0:0",
+  "modelVersion": 5,
+  "modelVersionParserMinimum": 5,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [
+    8121386050738509642
+  ],
+  "retiredPropertyUids": [
+    6874188245803573972,
+    6526528557387165848
+  ],
+  "retiredRelationUids": [],
+  "version": 1
+}

@@ -103,21 +103,24 @@ class _MyHomePageState extends State<MyHomePage> {
         ),
       ),
       body: SingleChildScrollView(
-        child: Center(
-          child: Column(
-            children: [
-              SizedBox(
-                height: 20,
-              ),
-              Text(
-                currentSongTitle,
-                style: Theme.of(context).textTheme.titleLarge,
-              ),
-              SizedBox(
-                height: 20,
-              ),
-              Text(currentSongLyrics),
-            ],
+        child: Padding(
+          padding: const EdgeInsets.all(10.0),
+          child: Center(
+            child: Column(
+              children: [
+                SizedBox(
+                  height: 20,
+                ),
+                Text(
+                  currentSongTitle,
+                  style: Theme.of(context).textTheme.titleLarge,
+                ),
+                SizedBox(
+                  height: 20,
+                ),
+                Text(currentSongLyrics),
+              ],
+            ),
           ),
         ),
       ),
