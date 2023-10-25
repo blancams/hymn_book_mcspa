@@ -99,7 +99,7 @@ Quien recibe mi palabra,
 recibe al que me envió.
 ''');
     Song songCommunion2 = Song('Sons of God', '''
-Sons of God, hear His holy word,
+Sons of God, hear His Holy word,
 Gather round, the table of the Lord.
 Eat His body, drink his blood,
 and we'll sing a song of Love,
