@@ -145,7 +145,7 @@ nada podemos darte,
 más te lo agradecemos,
 de todo corazón.
 ''');
-    Song songCommunion4 = Song('Nakikaribisha Yesu', '''
+    Song songCommunion4 = Song('Nakukaribisha Yesu', '''
 Nakukaribisha Yesu wangu Ukae moyoni mwangu Bwana,
 Nakukaribisha Yesu wangu chakula chenye uzima
 
